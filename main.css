@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #c8aa6e;
+}
+
+header h1,
+header h1 ul {
+    font-family: 'Exo 2', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #c8aa6e;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container,
+.rrhaast, .rkayn,
+.brhaast, .bkayn {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+section .container h2,
+section .container h3, section p,
+#runas h2, #build h2,
+.rrhaast h3, .rkayn h3,
+.brhaast h3, .bkayn h3, #social h2, .coment h3 {
+    margin: 32px;
+    color: #c8aa6e;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.pqwer {
+    list-style: none;
+}
+
+section .container p,
+.rrhaast p, .rkayn p,
+.brhaast p, .bkayn p {
+    color: #8f8f8f;
+    font-family: 'Arvo', serif;
+}
+
+h2, h3, section p,
+#habilidades {
+    text-align: center;
+}
+
+#habilidades .container img,
+video,
+#biografia img { 
+    max-width: 100%; 
+}
+
+.rrhaast, .brhaast {
+    width: 50%;
+    float: left;
+}
+
+.rkayn, .bkayn {
+    width: 50%;
+    float: right;
+}
+
+.rrhaast img, .rkayn img {
+    max-width: 99%;
+}
+
+.brhaast img, .bkayn img {
+    margin-left: 25%;
+    max-width: 100%;
+}
+
+.coment h3 {
+    display: inline;
+}
+
+
+
+.rodape {
+    color: #c8aa6e;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
