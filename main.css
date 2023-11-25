@@ -48,7 +48,7 @@ section .container h2,
 section .container h3, section p,
 #runas h2, #build h2,
 .rrhaast h3, .rkayn h3,
-.brhaast h3, .bkayn h3, #social h2, .coment h3 {
+.brhaast h3, .bkayn h3, #social h2, .rodape {
     margin: 32px;
     color: #c8aa6e;
     font-family: 'Exo 2', sans-serif;
@@ -66,7 +66,7 @@ section .container p,
 }
 
 h2, h3, section p,
-#habilidades {
+#habilidades, .rodape {
     text-align: center;
 }
 
@@ -86,24 +86,14 @@ video,
     float: right;
 }
 
-.rrhaast img, .rkayn img {
-    max-width: 99%;
+.rune, .buld {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+.rrhaast img, .rkayn img,
 .brhaast img, .bkayn img {
-    margin-left: 25%;
-    max-width: 100%;
-}
-
-.coment h3 {
-    display: inline;
-}
-
-
-
-.rodape {
-    color: #c8aa6e;
-    font-family: 'Exo 2', sans-serif;
+    max-width: 500px;
 }
 
 
