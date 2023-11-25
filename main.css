@@ -38,7 +38,8 @@ header .container {
 
 .container,
 .rrhaast, .rkayn,
-.brhaast, .bkayn {
+.brhaast, .bkayn,
+.social-links {
     max-width: 1000px;
     width: 100%;
     margin: 0px auto;
@@ -48,7 +49,8 @@ section .container h2,
 section .container h3, section p,
 #runas h2, #build h2,
 .rrhaast h3, .rkayn h3,
-.brhaast h3, .bkayn h3, #social h2, .rodape {
+.brhaast h3, .bkayn h3, #social h3, .rodape,
+.insta, .gmail {
     margin: 32px;
     color: #c8aa6e;
     font-family: 'Exo 2', sans-serif;
@@ -59,14 +61,13 @@ section .container h3, section p,
 }
 
 section .container p,
-.rrhaast p, .rkayn p,
-.brhaast p, .bkayn p {
+.rune p, .buld p, .nocoment {
     color: #8f8f8f;
     font-family: 'Arvo', serif;
 }
 
 h2, h3, section p,
-#habilidades, .rodape {
+#habilidades, .rodape, .nocoment {
     text-align: center;
 }
 
@@ -76,19 +77,12 @@ video,
     max-width: 100%; 
 }
 
-.rrhaast, .brhaast {
-    width: 50%;
-    float: left;
+.rrhaast, .rkayn {
+    max-width: 50%;
 }
 
-.rkayn, .bkayn {
-    width: 50%;
-    float: right;
-}
-
-.rune, .buld {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.brhaast, .bkayn {
+    max-width: 50%;
 }
 
 .rrhaast img, .rkayn img,
@@ -96,5 +90,49 @@ video,
     max-width: 500px;
 }
 
+.rune, .buld {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+form input,
+form textarea,
+form button {
+    background-color: #181818;
+    color: white;
+    display: block;
+    width: 1000px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
 
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #181818;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+.nocoment {
+margin: 32px;
+}
+
+.social-links img {
+    height: 60px;
+}
+
+.i {
+    margin-left: 40%;
+}
+
+.g {
+    margin-left: 39%;
+}
+
+.insta, .gmail {
+    text-decoration: none;
+}
