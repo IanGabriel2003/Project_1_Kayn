@@ -82,7 +82,8 @@ video,
 }
 
 .brhaast, .bkayn {
-    max-width: 50%;
+    max-width: 100%;
+    width: 50%;
 }
 
 .rrhaast img, .rkayn img{
@@ -130,10 +131,12 @@ margin: 32px;
 }
 
 .i {
+    max-width: 100%;
     margin-left: 40%;
 }
 
 .g {
+    max-width: 100%;
     margin-left: 39%;
 }
 
