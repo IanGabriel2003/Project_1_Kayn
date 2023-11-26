@@ -84,16 +84,17 @@ video,
 }
 
 .rrhaast, .rkayn {
-    max-width: 99%;
+    max-width: 100%;
+}
+
+.rrhaast img, .rkayn img {
+    max-width: 100%;
 }
 
 .brhaast, .bkayn {
-    max-width: 100%;
+    max-width: 1000px;
     width: 48%;
-}
-
-.rrhaast img, .rkayn img{
-    max-width: 100%;
+    height: 100%;
 }
 
 .brhaast img, .bkayn img {
