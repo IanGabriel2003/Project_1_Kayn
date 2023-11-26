@@ -38,11 +38,17 @@ header .container {
 
 .container,
 .rrhaast, .rkayn,
-.brhaast, .bkayn,
+
 .social-links {
     max-width: 1000px;
     width: 100%;
-    margin: 0px auto;
+    margin: auto;
+}
+
+.brhaast, .bkayn {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
 }
 
 section .container h2,
@@ -83,7 +89,7 @@ video,
 
 .brhaast, .bkayn {
     max-width: 100%;
-    width: 50%;
+    width: 48%;
 }
 
 .rrhaast img, .rkayn img{
