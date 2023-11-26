@@ -39,8 +39,7 @@ header .container {
 .container,
 .rrhaast, .rkayn,
 .brhaast, .bkayn,
-.social-links,
-form {
+.social-links {
     max-width: 1000px;
     width: 100%;
     margin: 0px auto;
@@ -99,10 +98,16 @@ video,
     grid-template-columns: 1fr 1fr;
 }
 
-form {
+form input,
+form textarea,
+form button {
     background-color: #181818;
     color: white;
     display: block;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
 }
 
 form textarea {
@@ -111,6 +116,8 @@ form textarea {
 }
 
 form button {
+    background-color: #181818;
+    color: #ecf0f1;
     cursor: pointer;
 }
 
