@@ -78,16 +78,19 @@ video,
 }
 
 .rrhaast, .rkayn {
-    max-width: 50%;
+    max-width: 99%;
 }
 
 .brhaast, .bkayn {
     max-width: 50%;
 }
 
-.rrhaast img, .rkayn img,
+.rrhaast img, .rkayn img{
+    max-width: 100%;
+}
+
 .brhaast img, .bkayn img {
-    max-width: 500px;
+    max-width: 100%;
 }
 
 .rune, .buld {
