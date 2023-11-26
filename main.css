@@ -104,7 +104,8 @@ form button {
     background-color: #181818;
     color: white;
     display: block;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     margin-bottom: 8px;
     padding: 8px;
 }
